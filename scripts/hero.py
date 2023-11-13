@@ -5,7 +5,7 @@ class Hero:
     def __init__(self, screen):
         self.screen = screen
         # Definir las coordenadas y dimensiones de la primera sub imagen
-        self.sprite_width, self.sprite_height = 64, 64
+        self.sprite_width, self.sprite_height = 80, 80
         self.x, self.y = 0, 0
 
         # Inicializar variables
