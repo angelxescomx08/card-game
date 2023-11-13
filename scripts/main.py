@@ -12,7 +12,7 @@ screen = pygame.display.set_mode((800, 600))
 clock = pygame.time.Clock()
 
 # Configurar un temporizador para avanzar al siguiente cuadro
-pygame.time.set_timer(pygame.USEREVENT, 200)  # Cambia el valor para ajustar la velocidad de la animación
+pygame.time.set_timer(pygame.USEREVENT, 100)  # Cambia el valor para ajustar la velocidad de la animación
 
 hero = Hero(screen)
 
