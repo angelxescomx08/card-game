@@ -1,6 +1,6 @@
 #Crea un código para pygame
 import pygame
-from hero import Hero
+from scripts.hero import Hero
 
 # Inicializa el motor de juegos
 pygame.init()
